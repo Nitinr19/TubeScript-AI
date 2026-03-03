@@ -948,9 +948,10 @@ export default function App() {
             </div>
           </div>
         ) : (
-          <div className="max-w-4xl mx-auto space-y-8">
-            <section className="bg-white border border-[#E5E5E5] rounded-2xl p-8 shadow-sm">
-              <div className="flex items-center gap-4 mb-6">
+          <div className="h-full overflow-y-auto pb-12 pr-2">
+            <div className="max-w-4xl mx-auto space-y-8">
+              <section className="bg-white border border-[#E5E5E5] rounded-2xl p-8 shadow-sm">
+                <div className="flex items-center gap-4 mb-6">
                 <div className="w-12 h-12 bg-black rounded-xl flex items-center justify-center">
                   <Code className="text-white w-6 h-6" />
                 </div>
@@ -1030,6 +1031,7 @@ export default function App() {
                 </p>
               </div>
             </section>
+          </div>
           </div>
         )}
       </main>
