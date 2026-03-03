@@ -1,0 +1,5 @@
+{
+  "name": "TubeScript AI",
+  "description": "Extract YouTube transcripts and generate high-quality structured summaries using Gemini AI. Features a Chrome Extension for reliable transcript extraction.",
+  "requestFramePermissions": []
+}
